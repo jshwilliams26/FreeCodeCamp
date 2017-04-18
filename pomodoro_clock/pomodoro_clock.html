@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+<link rel="stylesheet" href="pomodoro_clock.css">
+</head>
+<body>
+<div id='pClock'>
+  <h1>Pomodoro Clock</h1>
+  
+  <div id='adjusters'>
+    <div id='adjustBreak'>
+      <p>Adjust break: </p>
+      <button id='decBreak' onclick='decrementBreak()'>-</button>
+      <span id='breakValue'>5</span>
+      <button id='incrBreak' onclick='incrementBreak()'>+</button>
+    </div>
+    <div id='adjustTimer'>
+      <p>Adjust timer: </p>
+      <button id='decTimer' onclick='decrementTimer()'>-</button>
+      <span id='timerValue'>25</span>
+      <button id='incrTimer' onclick='incrementTimer()'>+</button>
+    </div>
+  </div>
+  
+  <div id='timerStatus'></div>
+  
+  <div id='timer' onclick='startTimer()'><span id='min'>25</span> : <span id='sec'>00</span></div>
+
+  <div id='timerButtons'>
+    <button id='start' onclick='startTimer()'>Start</button>
+    <button id='stop' onclick='stopTimer()'>Stop</button>
+    <button id='reset' onclick='resetTimer()'>Reset</button>
+  </div>
+  
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="pomodoro_clock.js"></script>
+</body>
+</html>
