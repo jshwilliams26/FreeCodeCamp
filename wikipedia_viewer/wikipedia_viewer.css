@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+  color: #010202;
+  text-align: center;
+  font-family: "PT Serif", Serif;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-size: 52px;
+  margin-bottom: 40px;
+}
+
+input {
+  font-family: "PT Serif", Serif;
+}
+
+input[type='text'] {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 16px;
+  height: 33px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+button, input[type='submit'] {
+  font-family: "PT Serif", Serif;
+  background-color: #666666;
+  color: #000000;
+  border: 0px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button:hover, input[type='submit']:hover {
+    background-color: #AAAAAA;
+}
+
+#result {
+  margin: auto;
+  padding: 10px;
+  width: 75%;
+}
+
+#resDiv {
+  background-color: #AAAAAA;
+  margin: 15px;
+  padding: 10px;
+  text-align: left;
+}
+
+#resDiv:hover {
+  background-color: #FFFFFF;
+}
