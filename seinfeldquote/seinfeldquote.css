@@ -1,0 +1,64 @@
+body {
+  background-color: #2D2C35;
+  font-family: "Open Sans", Verdana;
+}
+
+.container-fluid {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #26547C;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#quoteBox {
+  background-color: #D7D6CA;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+#quoteBox p {
+  font-size: 150%;
+}
+
+#qbBottom {
+  margin: 30px;
+  padding: 10px;
+}
+
+#twt {
+  float: left;
+  font-size: 200%;
+  margin: 5px;
+  padding: 10px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: #26547C;
+  color: #FFFFFF;
+}
+
+#newQuote {
+  border-radius: 5px;
+  border: 0px;
+  background-color: #26547C;
+  color: #FFFFFF;
+  font-size: 200%;
+  margin: 5px;
+  padding: 15px;
+  float: right;
+}
+
+#newQuote:hover {
+  background-color: #2D2C35;
+  color: #FFFFFF;
+}
