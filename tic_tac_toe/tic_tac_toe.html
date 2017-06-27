@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+<link rel="stylesheet" href="tic_tac_toe.css">
+</head>
+<body>
+<h1>Tic Tac Toe</h1>
+
+<button id='start' onclick='startGame()'>Start</button>
+<button id='reset' onclick='resetGame()'>Reset</button>
+<button id='clrScores' onclick='clearScores()'>Clear Scores</button>
+
+<div id='wins'>
+  Player Wins: <span id='pWins'>0</span><br>
+  Computer Wins: <span id='cWins'>0</span><br><br>
+</div>
+
+<table id='gameTable'>
+  <tbody>
+    <tr><td id='t1' onclick='pickCell(this)'></td><td id='t2' onclick='pickCell(this)'></td><td id='t3' onclick='pickCell(this)'></td></tr>
+    <tr><td id='m1' onclick='pickCell(this)'></td><td id='m2' onclick='pickCell(this)'></td><td id='m3' onclick='pickCell(this)'></td></tr>
+    <tr><td id='b1' onclick='pickCell(this)'></td><td id='b2' onclick='pickCell(this)'></td><td id='b3' onclick='pickCell(this)'></td></tr>
+  </tbody>
+</table>
+<script src="tic_tac_toe.js"></script>
+</body>
+</html>

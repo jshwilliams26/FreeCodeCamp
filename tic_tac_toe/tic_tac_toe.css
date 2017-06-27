@@ -1,0 +1,50 @@
+body {
+  background-color: #333333;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Righteous", Arial;
+  font-size: 40px;
+}
+
+h1 {
+  font-size: 68px;
+  margin: 5px;
+}
+
+button {
+  background-color: #666666;
+  color: #FFFFFF;
+  margin: 20px;
+  padding: 15px;
+  border: 1px;
+  font-size: 22px;
+  font-family: "Righteous", Arial;
+}
+
+button:hover {
+  background-color: #999999;
+}
+
+#wins {
+  font-size: 24px;
+}
+
+#gameTable {
+  margin: 0 auto;
+  border-spacing: 0px;
+  border: 3px solid #FFFFFF;
+}
+
+#gameTable td {
+  background-color: #000000;
+  color: #E8F1F2;
+  font-size: 100px;
+  text-align: center;
+  width: 180px;
+  height: 180px;
+  border: 3px solid #FFFFFF;
+}
+
+#gameTable td:hover {
+  background-color: #666666;
+}
