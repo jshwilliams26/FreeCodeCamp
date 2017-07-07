@@ -6,7 +6,7 @@ function wikiSearch() {
     var res = "";
     
     $.ajax({
-      url: 'http://en.wikipedia.org/w/api.php',
+      url: 'https://en.wikipedia.org/w/api.php',
       data: { action: 'query', generator: 'search', gsrsearch: search, prop: 'extracts|allimages', exintro: 1, exlimit: 10, exchars: 200, explaintext: 1, aiprop: "url", format: 'json' },
       dataType: 'jsonp',
       success: function (x) {
@@ -18,7 +18,7 @@ function wikiSearch() {
         document.getElementById('result').innerHTML = res;
       }
     });
-
+    
     event.preventDefault();
   });
 }

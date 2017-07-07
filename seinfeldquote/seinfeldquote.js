@@ -25,6 +25,6 @@ $("#newQuote").click(function() {
 
 $('#twt').on('click', function() {
   var quote = document.getElementById('quote').textContent;
-  var twtpg = 'http://twitter.com/share?text=' + encodeURIComponent(quote);
+  var twtpg = 'https://twitter.com/share?text=' + encodeURIComponent(quote);
   window.open(twtpg, null, "height=500,width=800");
 });

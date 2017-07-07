@@ -1,0 +1,108 @@
+body {
+  font-family: "Lato", Arial;
+  font-size: 18px;
+  background-color: #000000;
+  color: #AAAAAA;
+  text-align: center;
+}
+
+h2 {
+  color: #AAAAAA;
+  font-family: "Droid Sans", Arial;
+  font-size: 52px;
+  transition: all .3s ease-in-out;
+}
+
+#nametopbar {
+  list-style-type: none;
+  color: #AAAAAA;
+  padding: 10px;
+  padding-left: 20px;
+  float: left;
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+#topbar {
+  font-family: "Droid Sans", Arial;
+  background-color: #141414;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#topbar:hover #nametopbar {
+    color: #FFFFFF;
+}
+
+#topmenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#topmenu li {
+  color: #AAAAAA;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: block;
+  display: inline-block;
+  float: right;
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+#topmenu li:hover {
+  color: #FFFFFF;
+}
+
+#content {
+  margin-top: 70px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+#intro:hover h2, #portfolio:hover h2, #contact:hover h2 {
+  color: #FFFFFF;
+}
+
+#intro {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mephoto {
+  width: 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#portfolio img {
+  border: 3px solid #9B9B9B;
+  width: 300px;
+  margin: 20px;
+  transition: all .3s ease-in-out;
+}
+
+#portfolio img:hover {
+  transform: scale(1.1);
+  border: 3px solid #FFFFFF;
+}
+
+input, textarea {
+  background-color: #252525;
+  border: 2px solid #AAAAAA;
+  width: 400px;
+  margin: 10px;
+  transition: all .3s ease-in-out;
+}
+
+input:hover, textarea:hover {
+  background-color: #474747;
+  color: #FFFFFF;
+}

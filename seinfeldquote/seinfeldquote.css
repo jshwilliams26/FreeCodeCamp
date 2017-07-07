@@ -1,12 +1,12 @@
-body {
-  background-color: #2D2C35;
-  font-family: "Open Sans", Verdana;
-}
-
 .container-fluid {
   width: 75%;
   margin: 0 auto;
   margin-top: 20px;
+}
+
+body {
+  background-color: #2C2C2C;
+  font-family: "Open Sans", Verdana;
 }
 
 h1 {
