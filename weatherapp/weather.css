@@ -33,3 +33,43 @@ h1 {
 #darksky {
 	font-size: 16px;
 }
+
+.clear-day {
+	background: url('http://wallpaperswide.com/download/blue_heaven-wallpaper-2048x1152.jpg') no-repeat center center fixed;			
+}
+
+.clear-night {
+	background: url('http://wallpaperswide.com/download/milky_way_glitters_over_arches_national_park_utah-wallpaper-2048x1152.jpg') no-repeat center center fixed;
+}
+
+.rain {
+	background: url('http://wallpaperswide.com/download/rainy_weather-wallpaper-2048x1152.jpg') no-repeat center center fixed;
+}
+
+.snow {
+	background: url('http://wallpaperswide.com/download/snowy_mountains_3-wallpaper-2048x1152.jpg') no-repeat center center fixed;
+}
+
+.sleet {
+	background: url('http://mediad.publicbroadcasting.net/p/wunc/files/201602/Sleet_on_the_ground.jpg') no-repeat center center fixed;
+}
+
+.wind {
+	background: url('https://w-dog.net/wallpapers/9/2/432722453144335/windy-day-landscape-dramatic-sky-tree.jpg') no-repeat center center fixed;
+}
+
+.fog {
+	background: url('http://wallpaperswide.com/download/foggy_landscape_bulgaria-wallpaper-2048x1152.jpg') no-repeat center center fixed;
+}
+
+.cloudy {
+	background: url('http://wallpaperswide.com/download/cloudy_day_4-wallpaper-2048x1152.jpg') no-repeat center center fixed;
+}
+
+.partly-cloudy-day {
+	background: url('http://wallpaperswide.com/download/beautiful_blue_cloudy_sky-wallpaper-2048x1152.jpg') no-repeat center center fixed;
+}
+
+.partly-cloudy-night {
+	background: url('http://wallpaperswide.com/download/full_moon_night_2-wallpaper-2048x1152.jpg') no-repeat center center fixed;
+}
