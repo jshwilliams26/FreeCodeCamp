@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="seinfeldquote.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class='container-fluid'>
+
+<h1><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Seinfeld_logo.svg/2000px-Seinfeld_logo.svg.png" style="height: 100px;"> Quote Generator</h1>
+
+<div id='quoteBox'>
+  <div id='quote'>
+    <p>"<span id='quoteText'></span>"<p>
+    <p>- <em><span id='quoteAuthor'></span> (Season <span id='season'></span>, Episode <span id='episode'></span>)</em></p>
+  </div>
+  <div id='qbBottom'>
+    <button id='twt'><i class="fa fa-twitter" aria-hidden="true"></i></button>
+    <button id='newQuote'>New Quote</button>
+  </div>
+  <br><br>
+  <p style="font-size: 100%">*Quotes generated from the <a href='https://seinfeld-quotes.herokuapp.com/'>Seinfeld Quote API</a>.</p>
+</div>
+  
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="seinfeldquote.js"></script>
+<script src="https://use.fontawesome.com/c25bf22fda.js"></script>
+</body>
+</html>

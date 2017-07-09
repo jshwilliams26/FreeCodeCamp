@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+<link rel="stylesheet" href="wikipedia_viewer.css">
+</head>
+<body>
+
+<h1>Wikipedia Viewer</h1>
+
+<a href='https://en.wikipedia.org/wiki/Special:Random' target="_blank"><button>Random Wikipedia Article</button></a>
+
+<form method='GET'><br><br>
+  <input type='text' name='searchQuery' id='searchQuery'>
+  <input type='submit' id='querySubmit' value="Search Wikipedia">
+</form>
+
+<div id='result'>
+  
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="wikipedia_viewer.js"></script>
+</body>
+</html>

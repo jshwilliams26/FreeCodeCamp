@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+<link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+<h1>JavaScript Calculator</h1>
+
+<table id='calc'>
+  <tbody>
+    <tr>
+      <td colspan='4'><input type='text' readonly id='output'></td>
+    </tr>
+    <tr>
+      <td><button id='ce'>CE</button></td>
+      <td><button id='leftP'>(</button></td>
+      <td><button id='rightP'>)</button></td>
+      <td><button id='mod'>%</button></td>
+    </tr>
+    <tr>
+      <td><button id='n1'>1</button></td>
+      <td><button id='n2'>2</button></td>
+      <td><button id='n3'>3</button></td>
+      <td><button id='add'>+</button></td>
+    </tr>
+    <tr>
+      <td><button id='n4'>4</button></td>
+      <td><button id='n5'>5</button></td>
+      <td><button id='n6'>6</button></td>
+      <td><button id='sub'>-</button></td>
+    </tr>
+    <tr>
+      <td><button id='n7'>7</button></td>
+      <td><button id='n8'>8</button></td>
+      <td><button id='n9'>9</button></td>
+      <td><button id='mult'>*</button></td>
+    </tr>
+    <tr>
+      <td><button id='n0'>0</button></td>
+      <td><button id='dec'>.</button></td>
+      <td><button id='eq'>=</button></td>
+      <td><button id='divd'>/</button></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+
+<div id="instr">
+<h2>Instructions</h2>
+<p>Click the buttons to make a calculation.  Keyboard input is valid too.  Enter and "=" will calculate what is in the calculator screen, Space, "c", and "C" will clear the screen, and Backspace/Delete will delete the last character from the screen.</p>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="calculator.js"></script>
+</body>
+</html>
