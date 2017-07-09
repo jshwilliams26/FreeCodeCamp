@@ -9,7 +9,7 @@ function latlongRequest() {
 			var response = JSON.parse(req.response);
 			weatherRequest(response.latitude, response.longitude, response.region_code, response.city);
 		} else {
-    		console.log("Could not retrieve zip code");
+    		console.log("Could not retrieve location");
 		}
 	});
 }
