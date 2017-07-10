@@ -1,0 +1,59 @@
+body {
+  color: #BFBFBF;
+  font-family: "Noto Sans", Tahoma;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 50px;
+  background: url("http://wallpaperswide.com/download/our_night_skies-wallpaper-2048x1152.jpg") center center fixed;
+  background-color: #000000;
+}
+
+h1 {
+  font-family: "Press Start 2P", Tahoma;
+  font-size: 24px;
+  color: #55CC55;
+}
+
+#smheader {
+  width: 100%;
+  height: 200px;
+}
+
+#smheader img {
+  height: 200px;
+}
+
+#smcontent {
+  top: 150px;
+}
+
+ul {
+  text-align: left;
+}
+
+#gameboximg {
+  width: 300px;
+}
+
+#smhistory {
+  background: rgba(0,0,0,0.8);
+  border-radius: 5px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+#smhacks {
+  background: rgba(0,0,0,0.8);
+  border-radius: 5px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 70%;
+}
+
+img {
+  padding: 10px;
+}
