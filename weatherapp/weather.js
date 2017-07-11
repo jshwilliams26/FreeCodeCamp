@@ -36,39 +36,8 @@ function weatherRequest(latitude, longitude, region, city) {
 			document.getElementById("tf").innerHTML = "<span style='color: #888888;'>Temperature:</span> " + tempF + " &deg<span style='color: #5555FF;'>F</span>";
 			
 			// Pick a background image for the current conditions
-			switch (wResponse.currently.icon) {
-				case "clear-day":
-					document.body.className = "clear-day";			
-					break;
-				case "clear-night":
-					document.body.className = "clear-night";			
-					break;
-				case "rain":
-					document.body.className = "rain";			
-					break;
-				case "snow":
-					document.body.className = "snow";			
-					break;
-				case "sleet":
-					document.body.className = "sleet";			
-					break;
-				case "wind":
-					document.body.className = "wind";			
-					break;
-				case "fog":
-					document.body.className = "fog";			
-					break;
-				case "cloudy":
-					document.body.className = "cloudy";			
-					break;
-				case "partly-cloudy-day":
-					document.body.className = "partly-cloudy-day";			
-					break;
-				case "partly-cloudy-night":
-					document.body.className = "partly-cloudy-night";			
-					break;
-				default:
-					document.body.className = "partly-cloudy-day";			
+			if (typeof wResponse.currently.icon !== undefined) {
+				document.body.className = wResponse.currently.icon;
 			}
 			
 			// Make sure the default background color is black
