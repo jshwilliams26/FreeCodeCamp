@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="simongame.css">
+<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div id="simonGame">
+  <div id="topButtons">
+    <div id="greenButton" onclick="clickButton(this.id)"></div>
+    <div id="redButton" onclick="clickButton(this.id)"></div>
+  </div>
+  <div id="simonControl">
+    <table id="controls">
+      <tr>
+        <td colspan="3" id="logo">Simon<sup id="registered">&reg;</sup></td>
+      </tr>
+      <tr>
+        <td></td><td></td><td><button id="isStrict"></button></td>
+      </tr>
+      <tr>
+        <td><input type="text" id="countnum" readonly></td><td><button id="startButton" onclick="startGame();"></button></td><td><button id="strictButton" onclick="toggleStrict()"></button></td>
+      </tr>
+      <tr>
+        <td>COUNT</td><td>START</td><td>STRICT</td>
+      </tr>
+      <tr>
+        <td colspan="3">OFF <button id="offSwitch" onclick="turnOnSimon();"></button><button id="onSwitch" onclick="turnOffSimon();"></button> ON</td>
+      </tr>
+    </table>
+  </div>
+  <div id="bottomButtons">
+    <div id="yellowButton" onclick="clickButton(this.id)"></div>
+    <div id="blueButton" onclick="clickButton(this.id)"></div>
+  </div>
+</div>
+<script src="simongame.js"></script>
+</body>
+</html>
