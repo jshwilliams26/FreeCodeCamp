@@ -1,21 +1,36 @@
 body {
   font-family: "Lato", Arial;
   font-size: 20px;
-  background-color: #000000;
-  color: #AAAAAA;
+  background-color: #050505;
+  color: #BFBFBF;
   text-align: center;
 }
 
 h2 {
-  color: #AAAAAA;
-  font-family: "Droid Sans", Arial;
+  color: #CFCFCF;
+  font-family: "Roboto", Arial;
   font-size: 52px;
-  transition: all .3s ease-in-out;
+}
+
+h3 {
+  color: #77BBFF;
+  font-family: "Roboto", Arial;
+  font-size: 26px;
+}
+
+p {
+  color: #BFBFBF;
+  font-size: 20px;
+}
+
+hr {
+  border: 2px solid #BFBFBF;
+  width: 90%;
 }
 
 #nametopbar {
   list-style-type: none;
-  color: #AAAAAA;
+  color: #BFBFBF;
   padding: 10px;
   padding-left: 20px;
   float: left;
@@ -24,16 +39,17 @@ h2 {
 }
 
 #topbar {
-  font-family: "Droid Sans", Arial;
-  background-color: #141414;
+  font-family: "Roboto", Arial;
+  background-color: #171717;
   padding: 10px;
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
 }
 
 #topbar:hover #nametopbar {
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 #topmenu {
@@ -44,7 +60,7 @@ h2 {
 }
 
 #topmenu li {
-  color: #AAAAAA;
+  color: #BFBFBF;
   padding: 10px;
   padding-left: 20px;
   padding-right: 20px;
@@ -65,10 +81,6 @@ h2 {
   margin-right: 120px;
 }
 
-#intro:hover h2, #portfolio:hover h2, #contact:hover h2 {
-  color: #FFFFFF;
-}
-
 #intro {
   width: 50%;
   margin-left: auto;
@@ -78,31 +90,82 @@ h2 {
 #mephoto {
   width: 100%;
   max-width: 300px;
+  border-radius: 300px;
   margin-left: auto;
   margin-right: auto;
 }
 
-#portfolio img {
-  border: 3px solid #9B9B9B;
-  width: 300px;
-  margin: 20px;
-  transition: all .3s ease-in-out;
+#portfolio {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#portfolio img:hover {
-  transform: scale(1.1);
-  border: 3px solid #FFFFFF;
+#projects {
+  display: table;
+}
+
+#projectcol {
+  float: left;
+  width: 50%;
+}
+
+#portproject {
+  width: 80%;
+  margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  border: 2px solid #8C8C8C;
+  border-radius: 10px;
+}
+
+#portproject img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#projectOverlay {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #171717;
+  text-align: center;
+  transition: all .5s ease-in-out;
+  border-radius: 10px;
+}
+
+#portproject:hover #projectOverlay {
+  opacity: 1;
+}
+
+#portproject:hover {
+  border: 2px solid #BFBFBF;
+  transition: all .5s ease-in-out;
+}
+
+#projectDescription {
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 20px;
 }
 
 input, textarea {
-  background-color: #252525;
-  border: 2px solid #AAAAAA;
+  background-color: #171717;
+  border: 2px solid #9D9D9D;
   width: 400px;
   margin: 10px;
   transition: all .3s ease-in-out;
 }
 
 input:hover, textarea:hover {
-  background-color: #474747;
+  background-color: #393939;
+  border: 2px solid #BFBFBF;
   color: #FFFFFF;
 }

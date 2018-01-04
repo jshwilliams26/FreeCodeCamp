@@ -2,8 +2,8 @@
 <html>
 <head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
 <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
@@ -16,28 +16,137 @@
   </ul>
 </div>
 <div id="content">
-  <br><br><hr><br><br>
+  <br><br>
   <div id="intro">
     <h2>About Me</h2>
     <br>
     <img id="mephoto" src="http://i1380.photobucket.com/albums/ah183/jw_31/IMG_0533_zps50lxfewn.jpg">
     <br><br>
-    <p>Hello, I'm Josh.  I am an aspiring programmer and web developer, and I am learning programming and computer science both through Oregon State University and through FreeCodeCamp.  Featured below is some of my current work - please enjoy!</p>
+    <p>Hello, I'm Josh.  I am an aspiring programmer and web developer, and I am learning programming and 
+    computer science both through Oregon State University and through FreeCodeCamp.  Featured below is some 
+    of my current work - please enjoy!</p>
   </div>
-  <br><br><hr><br><br>
+  <br><br>
   <div id="portfolio">
     <h2>Portfolio projects</h2>
     <br>
-    <a href="http://aws-website-seinfeldquotegenerator-6mja6.s3-website-us-east-1.amazonaws.com/" target="_blank"><img src="https://s3.amazonaws.com/aws-website-portfolio-tv9e1/Seinfeld+Quote+Generator.png"></a>
-    <a href="http://aws-website-tictactoe-45oy8.s3-website-us-east-1.amazonaws.com/" target="_blank"><img src="https://s3.amazonaws.com/aws-website-portfolio-tv9e1/Tic+Tac+Toe.png"></a>
-    <a href="http://aws-website-wikipediaviewer-3g5sn.s3-website-us-east-1.amazonaws.com/" target="_blank"><img src="https://s3.amazonaws.com/aws-website-portfolio-tv9e1/Wikipedia+Viewer.png"></a>
-    <a href="http://aws-website-pomodoroclock-r5aet.s3-website-us-east-1.amazonaws.com/" target="_blank"><img src="https://s3.amazonaws.com/aws-website-portfolio-tv9e1/Pomodoro+Clock.png"></a>
-    <a href="http://aws-website-calculator-tdxsm.s3-website-us-east-1.amazonaws.com/" target="_blank"><img src="https://s3.amazonaws.com/aws-website-portfolio-tv9e1/Calculator.png"></a>
-    <a href="http://aws-website-weatherapp-t1b65.s3-website-us-east-1.amazonaws.com/" target="_blank"><img src="https://s3.amazonaws.com/aws-website-portfolio-tv9e1/Weather.png"></a>
-    <a href="http://aws-website-simongame-dhizm.s3-website-us-east-1.amazonaws.com/" target="_blank"><img src="https://s3.amazonaws.com/aws-website-portfolio-tv9e1/Simon+Game.png"></a>
-    <a href="https://d3rlvi1sjb3xmz.cloudfront.net/" target="_blank"><img src="https://s3.amazonaws.com/aws-website-portfolio-tv9e1/Super+Metroid.png"></a>
+	<div id="projects">
+		<div id="projectcol">
+			<div id="portproject">
+				<a href="http://18.220.236.3:8080/" target="_blank">
+					<img src="https://s3.amazonaws.com/aws-website-portfolio-tv9e1/Meditation.png">
+					<div id="projectOverlay">
+						<div id="projectDescription">
+							<h3>Meditation Tracker</h3>
+							<br>
+							<p>Log timed meditation sessions and view progress in calendar.  Made using Node.js, Socket.IO, and MongoDB.</p>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div id="portproject">
+				<a href="http://aws-website-seinfeldquotegenerator-6mja6.s3-website-us-east-1.amazonaws.com/" target="_blank">
+					<img src="https://s3.amazonaws.com/aws-website-portfolio-tv9e1/Seinfeld+Quote+Generator.png">
+					<div id="projectOverlay">
+						<div id="projectDescription">
+							<h3>Seinfeld Quote Generator</h3>
+							<br>
+							<p>Generates quotes using jQuery and AJAX calls to the Seinfeld Quote API.</p>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div id="portproject">
+				<a href="http://aws-website-tictactoe-45oy8.s3-website-us-east-1.amazonaws.com/" target="_blank">
+					<img src="https://s3.amazonaws.com/aws-website-portfolio-tv9e1/Tic+Tac+Toe.png">
+					<div id="projectOverlay">
+						<div id="projectDescription">
+							<h3>Tic Tac Toe</h3>
+							<br>
+							<p>Play a JavaScript Tic Tac Toe game.</p>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div id="portproject">
+				<a href="http://aws-website-wikipediaviewer-3g5sn.s3-website-us-east-1.amazonaws.com/" target="_blank">
+					<img src="https://s3.amazonaws.com/aws-website-portfolio-tv9e1/Wikipedia+Viewer.png">
+					<div id="projectOverlay">
+						<div id="projectDescription">
+							<h3>Wikipedia Viewer</h3>
+							<br>
+							<p>Search Wikipedia and view articles using jQuery and AJAX calls to the Wikipedia API.</p>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div id="portproject">
+				<a href="http://aws-website-pomodoroclock-r5aet.s3-website-us-east-1.amazonaws.com/" target="_blank">
+					<img src="https://s3.amazonaws.com/aws-website-portfolio-tv9e1/Pomodoro+Clock.png">
+					<div id="projectOverlay">
+						<div id="projectDescription">
+							<h3>Pomodoro Clock</h3>
+							<br>
+							<p>A JavaScript Pomodoro clock.</p>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		
+		<div id="projectcol">
+			<div id="portproject">
+				<a href="http://aws-website-calculator-tdxsm.s3-website-us-east-1.amazonaws.com/" target="_blank">
+					<img src="https://s3.amazonaws.com/aws-website-portfolio-tv9e1/Calculator.png">
+					<div id="projectOverlay">
+						<div id="projectDescription">
+							<h3>JavaScript Calculator</h3>
+							<br>
+							<p>A JavaScript calculator that takes button and keyboard input.</p>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div id="portproject">
+				<a href="http://aws-website-weatherapp-t1b65.s3-website-us-east-1.amazonaws.com/" target="_blank">
+					<img src="https://s3.amazonaws.com/aws-website-portfolio-tv9e1/Weather.png">
+					<div id="projectOverlay">
+						<div id="projectDescription">
+							<h3>Weather App</h3>
+							<br>
+							<p>Retrieves local weather data from the Dark Sky API with jQuery and AJAX calls.</p>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div id="portproject">
+				<a href="http://aws-website-simongame-dhizm.s3-website-us-east-1.amazonaws.com/" target="_blank">
+					<img src="https://s3.amazonaws.com/aws-website-portfolio-tv9e1/Simon+Game.png">
+					<div id="projectOverlay">
+						<div id="projectDescription">
+							<h3>Simon Game</h3>
+							<br>
+							<p>A JavaScript Simon Game.</p>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div id="portproject">
+				<a href="https://d3rlvi1sjb3xmz.cloudfront.net/" target="_blank">
+					<img src="https://s3.amazonaws.com/aws-website-portfolio-tv9e1/Super+Metroid.png">
+					<div id="projectOverlay">
+						<div id="projectDescription">
+							<h3>Super Metroid Tribute Page</h3>
+							<br>
+							<p>A tribute to the greatest video game of all time...</p>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
   </div>
-  <br><br><hr><br><br>
+  <br><br>
   <div id="contact">
     <h2>Contact</h2>
     <br><br>
@@ -48,7 +157,7 @@
       <input type="submit" value="Contact">
     </form>
   </div>
-  <br><br><hr><br><br>
+  <br><br>
 </div>
 </body>
 </html>
