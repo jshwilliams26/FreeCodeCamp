@@ -23,6 +23,15 @@ p {
   font-size: 20px;
 }
 
+a, a:hover, a:visited, a:active {
+  color: #BFBFBF;
+  transition: all .3s ease-in-out;
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+
 hr {
   border: 2px solid #BFBFBF;
   width: 90%;
