@@ -38,9 +38,11 @@ h1 {
 
 #twt {
   float: left;
-  font-size: 200%;
+  font-size: 220%;
   margin: 5px;
   padding: 10px;
+  width: 60px;
+  height: 60px;
   border: 0px;
   border-radius: 5px;
   background-color: #26547C;
@@ -52,13 +54,14 @@ h1 {
   border: 0px;
   background-color: #26547C;
   color: #FFFFFF;
-  font-size: 200%;
+  font-size: 180%;
   margin: 5px;
-  padding: 15px;
+  padding: 10px;
+  height: 60px;
   float: right;
 }
 
-#newQuote:hover {
+#newQuote:hover, #twt:hover {
   background-color: #2D2C35;
   color: #FFFFFF;
 }
